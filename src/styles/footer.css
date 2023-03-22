@@ -1,0 +1,39 @@
+.footer-global{
+    background-color: #13283B;
+    width: 100vw;   
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    display: inline-block;
+}
+.footer{     
+    text-align: center;     
+}
+
+.li{
+    background-color: #13283B;
+    width: 100vw;
+    height: 4rem;
+    list-style: none;
+    align-items: center;
+    color: #e4e4e4;
+    text-align: center;
+    
+}
+
+.li img{
+    margin-top: .5rem;
+   
+}
+
+nav ul{
+    background-color: #13283B;
+    display: flex;
+    align-items: center;
+    list-style: none;
+   
+}
+.text{
+    font-size: .6rem;
+    color: #e4e4e4;
+}
