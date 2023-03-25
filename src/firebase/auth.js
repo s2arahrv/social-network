@@ -20,9 +20,12 @@ const provider = new GoogleAuthProvider();
 // ----------- cadastro de usuário novo------------------ //
 export async function signIn(name, email, password) {
   return createUserWithEmailAndPassword(auth, name, email, password)
-    .then(() => updateProfile(auth.currentUser, {
-      displayName: name,
-    }));
+    .then((userCredential) => {
+      // Signed in
+      const user = userCredential.user; // aqui atualizar o perfil do usuario
+      return updateProfile(user, { displayName: name });
+      // ...
+    });
 }
 // ----------- Login de usuário cadastrado------------------ //
 export function login(email, password) {

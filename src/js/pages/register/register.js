@@ -3,6 +3,7 @@ import { signIn } from '../../../firebase/auth.js';
 import { redirect } from '../../../redirect.js';
 import { validationRegister } from '../../../validation.js';
 import { getErrorMessage } from '../../../firebase/error.js';
+import { createUserData } from '../../../firestore/firestore.js';
 
 export default () => {
   const containerRegister = document.createElement('div');
@@ -86,6 +87,7 @@ export default () => {
       passwordTwo.value,
     );
     if (validation === null) {
+      createUserData(name.value);
       signIn(
         email.value,
         password.value,
