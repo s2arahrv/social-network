@@ -12,26 +12,11 @@ export function footer() {
       <li>
          <a href="/#profile">
           <img src="./img/user-square.svg" alt="">
-           <p class="text">Perfil</p>
+           <p class="text">Sobre</p>
          </a>
       </li>
     </div>
-    <div class="li">
-      <li>       
-        <a href="/#publish">
-          <img src="./img/plus-square.svg" alt="">
-          <p class="text">Publicar</p>
-        </a>
-      </li>
-    </div>
-    <div class="li">
-      <li>       
-        <a href="/#feed">
-          <img src="./img/house.svg" alt="">
-          <p class="text">Feed</p>
-        </a>
-      </li>
-    </div>
+      
     <div class="li">
       <li>      
         <a href="/#sair">
