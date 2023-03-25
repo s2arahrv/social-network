@@ -67,7 +67,7 @@ export default () => {
     e.preventDefault();
     login(email.value, password.value)
       .then(() => {
-        redirect('#feed');
+        redirect('#publish');
       })
       .catch((error) => {
         errorMessage.innerHTML = getErrorMessage(error);
@@ -82,7 +82,7 @@ export default () => {
   btnLoginGoogle.addEventListener('click', () => {
     loginGoogle()
       .then(() => {
-        redirect('#feed');
+        redirect('#publish');
       })
       .catch((error) => {
         errorMessage.innerHTML = getErrorMessage(error);
