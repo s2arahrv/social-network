@@ -1,7 +1,7 @@
 import {
   initializeApp,
 // eslint-disable-next-line import/no-unresolved
-} from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js';
+} from 'firebase/app';
 
 import {
   getAuth,
@@ -12,7 +12,7 @@ import {
   updateProfile,
   signOut,
 // eslint-disable-next-line import/no-unresolved
-} from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js';
+} from 'firebase/auth';
 
 import {
   getFirestore,
@@ -28,7 +28,7 @@ import {
   arrayUnion,
   arrayRemove,
 // eslint-disable-next-line import/no-unresolved
-} from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore.js';
+} from 'firebase/firestore';
 
 import {
   firebaseConfig,
@@ -38,6 +38,14 @@ export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 const provider = new GoogleAuthProvider(app);
 const db = getFirestore(app);
+
+export function createUserData(name) {
+  const user = addDoc(collection(db, 'users'), {
+    // eslint-disable-next-line no-restricted-globals
+    nome: name,
+  });
+  console.log('Document written with ID: ', user.id);
+}
 
 export function getUser() {
   return auth.currentUser;

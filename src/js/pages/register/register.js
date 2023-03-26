@@ -1,9 +1,8 @@
 import { header } from '../../components/header.js';
-import { signIn } from '../../../firebase/auth.js';
+import { signIn, createUserData } from '../../../firebase/auth.js';
 import { redirect } from '../../../redirect.js';
 import { validationRegister } from '../../../validation.js';
 import { getErrorMessage } from '../../../firebase/error.js';
-import { createUserData } from '../../../firestore/firestore.js';
 
 export default () => {
   const containerRegister = document.createElement('div');

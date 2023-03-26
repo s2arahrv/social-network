@@ -21,6 +21,7 @@
 }
 
 .card-publish textarea{
+    width: 100%;
     margin-top:10px;
     border-radius: 15px;
 }
@@ -80,11 +81,6 @@ background-color: #145F83;
     font-size: 16px;
     margin: 2px;   
     margin-bottom: 20px
-}
-
-.btn-modal-delete:hover,
-.btn-modal-cancel:hover {
-  transform: scale(1.1);
 }
 
  .btn-like,
