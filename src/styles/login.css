@@ -40,7 +40,7 @@ display: flex;
     margin: 5px;
 	background: #051933;
 	border-radius: 10px;
-    height: 400px;
+    height: fit-content;
     
 }
 
