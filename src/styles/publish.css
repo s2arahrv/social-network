@@ -2,53 +2,195 @@
 @import "./header.css";
 @import "./footer.css";
 
-.container-publish {
-    width: 100vw;
+.container-publish{
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;     
-    background: beige;
-	height: 400px;
+    background-color: white;
+    margin: auto;  
+    padding-bottom: 100px;
+
 }
 
-.title {
-	margin-top: 2rem;
-   	font-size: 1.1rem;
-	text-transform: uppercase;
+.card-publish{
+    width: 80%;
+    margin: auto;   
+    border-radius: 15px;
 }
 
-.publish-post{
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 90vw;
-	height: 180px;
-    margin-top: 1rem;
-	background-color: #D9D9D9;
-}
-
-.post-input-publish {
-	opacity: 90%;
-    resize: none;
-    width: 95%;
-    height: 80%;
-    overflow:hidden;
-    outline: none;
-    border: none;
-    margin-top: .5rem;
+.card-publish textarea{
+    width: 100%;
     background-color: #D9D9D9;
+    margin-top:10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    
 }
 
-.btn-publish{
-	background-color: rgba(20, 95, 131, 1);
-    width: 90%;
-	 border: none;
+.container-post-data{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin: auto;
+    color: aliceblue;
+}
+
+.name,
+.message{
+    width: 80%;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #D9D9D9;
+    color: black;
+    
+}
+
+.user-name {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+
+.message{
+line-height: 2px;
+padding: 5px;
+height: 100px;
+ 
+}
+
+#post-published{
+    background-color: #D9D9D9;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    border: none;
+    overflow-y: scroll;
+}
+
+#post-published::-webkit-scrollbar {
+  display: none;
+}
+
+.publish-btn{
+    background-color: rgba(20, 95, 131, 1);
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     color: white;
-    padding: 10px 10px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;   
     font-size: 16px;
-    margin: 8px;   
+    margin: 2px;   
+    margin-bottom: 20px
 }
+
+ .btn-like,
+ .btn-delete,
+ .btn-edit {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  } 
+
+  .modal-delete {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 12rem;
+    padding: 20px;
+    background-color: #003b4e;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #8faab462;
+    color: aliceblue;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation: animate;
+    animation-duration: 0.5s;
+  }
+
+
+  .modal-delete-content {
+    display: flex;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }  
+
+  .btn-modal-delete,
+  .btn-modal-cancel {
+    border: none;
+    background: rgb(47, 99, 148);
+    cursor: pointer;
+    padding: 0.4rem;
+    transition: all 0.2s ease-in;
+    color: #ffffff;
+  }
+
+  .btn-modal-delete:hover,
+  .btn-modal-cancel:hover {
+    transform: scale(1.1);
+  }
+
+  .buttons{
+    margin-top: -42px;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+  }
+
+   .buttons img{
+    width: 25px;
+    margin-left: 60px;  
+  }
+
+  .button-like img{
+    width: 25px;
+    margin-left: 60px; 
+    margin-top: 10px; 
+  }
+
+  .number-likes{
+    margin-left: 60px; 
+  }
+
+  @media (min-width:700px) {
+.allPosts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+  }
+
+  .container-post-data {
+    width: 28rem;
+    height: 10rem;
+}
+
+.card-publish{
+  width: 30rem;
+}
+
+  }
