@@ -10,12 +10,12 @@ import {
   readAllPosts,
   newPost,
   readOnePost,
-  getUser,
+  auth,
 } from '../../../firebase/auth.js';
 
 const timelinePosts = (post) => {
   let buttons = '';
-  if (getUser().uid === post.userId) {
+  if (auth.currentUser.uid === post.userId) {
     buttons = `
   <div class='buttons'>
     <button class="btn-delete" id="btn-delete" data-id="${post.userId}">
@@ -102,7 +102,7 @@ const timelinePosts = (post) => {
 
   const btnLike = container.querySelector('#btn-like');
   btnLike.addEventListener('click', () => {
-    const user = getUser();
+    const user = auth.currentUser;
     if (post.likes.includes(user.uid)) {
       deslikePost(post.id, user.uid);
       post.likes.splice(post.likes.indexOf(user.uid));

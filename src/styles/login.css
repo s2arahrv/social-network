@@ -40,7 +40,7 @@ display: flex;
     margin: 5px;
 	background: #051933;
 	border-radius: 10px;
-    height: 400px;
+    height: fit-content;
     
 }
 
@@ -76,13 +76,13 @@ display: flex;
     border: none;
 }
 
-.btn-login-google img:hover{
-    background: #e4e4e4;
-}
-
 .btn-login-google img {
     width: 40px;
    
+}
+
+.btn-login-google img:hover{
+    background: #e4e4e4;
 }
 
 .form-box h2 {

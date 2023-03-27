@@ -26,6 +26,8 @@
 		background-color: rgba(20, 95, 131, 1);
 		display: flex;
 		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 	
 .header p{

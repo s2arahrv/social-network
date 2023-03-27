@@ -1,7 +1,7 @@
 import {
   initializeApp,
 // eslint-disable-next-line import/no-unresolved
-} from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js';
+} from 'firebase/app';
 
 import {
   getAuth,
@@ -12,7 +12,7 @@ import {
   updateProfile,
   signOut,
 // eslint-disable-next-line import/no-unresolved
-} from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js';
+} from 'firebase/auth';
 
 import {
   getFirestore,
@@ -28,7 +28,7 @@ import {
   arrayUnion,
   arrayRemove,
 // eslint-disable-next-line import/no-unresolved
-} from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore.js';
+} from 'firebase/firestore';
 
 import {
   firebaseConfig,
@@ -139,9 +139,12 @@ export function deslikePost(postId, userUID) {
 // ----------- cadastro de usuário novo------------------ //
 export async function signIn(name, email, password) {
   return createUserWithEmailAndPassword(auth, name, email, password)
-    .then(() => updateProfile(auth.currentUser, {
-      displayName: name,
-    }));
+    .then((userCredential) => {
+      // Signed in
+      const user = userCredential.user; // aqui atualizar o perfil do usuario
+      return updateProfile(user, { displayName: name });
+      // ...
+    });
 }
 // ----------- Login de usuário cadastrado------------------ //
 export function login(email, password) {
