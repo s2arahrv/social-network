@@ -10,15 +10,7 @@ import {
   signIn, login, disconnect, loginGoogle,
 } from '../src/firebase/auth.js';
 
-jest.mock('firebase/auth', () => ({
-  getAuth: jest.fn(),
-  createUserWithEmailAndPassword: jest.fn(),
-  updateProfile: jest.fn(),
-  signInWithEmailAndPassword: jest.fn(),
-  signOut: jest.fn(),
-  signInWithPopup: jest.fn(),
-  GoogleAuthProvider: jest.fn(),
-}));
+jest.mock('firebase/auth');
 
 const displayName = 'Usuário teste';
 const email = 'test@test.com';

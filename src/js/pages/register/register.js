@@ -1,5 +1,5 @@
 import { header } from '../../components/header.js';
-import { signIn, createUserData } from '../../../firebase/auth.js';
+import { signIn } from '../../../firebase/auth.js';
 import { redirect } from '../../../redirect.js';
 import { validationRegister } from '../../../validation.js';
 import { getErrorMessage } from '../../../firebase/error.js';
@@ -86,7 +86,6 @@ export default () => {
       passwordTwo.value,
     );
     if (validation === null) {
-      createUserData(name.value);
       signIn(
         email.value,
         password.value,
