@@ -49,21 +49,8 @@ export const createPostData = (postContent) => {
     message: postContent,
     userId: getUser().uid,
     userName: getUser().displayName,
-    image: '',
-    answers: [],
-    likes: [],
-    publishDate: date.toLocaleDateString(),
-    editDate: date.toLocaleDateString(),
-
-  };
-};
-
-export const createDataAnswer = (postContent) => {
-  const date = new Date();
-  return {
-    message: postContent,
-    userId: getUser().uid,
-    userName: getUser().displayName,
+    // image: '',
+    // answers: [],
     likes: [],
     publishDate: date.toLocaleDateString(),
     editDate: date.toLocaleDateString(),
@@ -138,7 +125,7 @@ export function deslikePost(postId, userUID) {
 
 // ----------- cadastro de usuário novo------------------ //
 export async function signIn(name, email, password) {
-  return createUserWithEmailAndPassword(auth, name, email, password)
+  return createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       // Signed in
       const user = userCredential.user; // aqui atualizar o perfil do usuario

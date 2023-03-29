@@ -172,6 +172,10 @@ height: 100px;
     margin-left: 60px; 
   }
 
+  .hidden{
+    display: none;
+}
+
   @media (min-width:700px) {
 .allPosts {
     display: flex;

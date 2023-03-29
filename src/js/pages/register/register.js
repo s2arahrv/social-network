@@ -48,7 +48,6 @@ export default () => {
                     <div class="form-control">
                       <button type='sumbit' class="register-btn">Cadastrar conta</button>
                    </div>
-
                      </form>
                 </div>
         </div>
@@ -87,10 +86,9 @@ export default () => {
     );
     if (validation === null) {
       signIn(
+        name.value,
         email.value,
         password.value,
-        passwordTwo.value,
-        name.value,
       )
         .then(() => {
           redirect('#login');
