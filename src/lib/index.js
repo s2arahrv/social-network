@@ -1,6 +1,7 @@
 import login from '../js/pages/login/login.js';
 import register from '../js/pages/register/register';
 import publish from '../js/pages/publish/publish.js';
+import { redirect } from '../redirect.js';
 
 const main = document.querySelector('#root');
 
@@ -28,5 +29,6 @@ const init = () => {
 
 window.addEventListener('load', () => {
   main.appendChild(login());
+  redirect('');
   init();
 });
