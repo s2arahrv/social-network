@@ -172,6 +172,11 @@ height: 100px;
     margin-left: 60px; 
   }
 
+  #btn-save {
+    visibility: hidden;
+
+  }
+
   @media (min-width:700px) {
 .allPosts {
     display: flex;
