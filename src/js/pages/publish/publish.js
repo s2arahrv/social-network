@@ -47,7 +47,6 @@ const timelinePosts = (post) => {
         <p class='number-likes'>${post.likes.length}</p></button>
       </div>
       ${buttons}  
-
     <div class='modal-delete' id='modal-delete'>
       <div class='modal-delete-content'>
         <p class='modal-delete-text'>Tem certeza que deseja excluir?</p>
@@ -58,7 +57,6 @@ const timelinePosts = (post) => {
       </div>
     </div>
 </section>
-
 `;
   container.innerHTML = templatePost;
 

@@ -48,7 +48,6 @@ export default () => {
                     <div class="form-control">
                       <button type='sumbit' class="register-btn">Cadastrar conta</button>
                    </div>
-
                      </form>
                 </div>
         </div>

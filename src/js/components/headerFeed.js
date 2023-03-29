@@ -11,7 +11,6 @@ export function headerFeed() {
   <div class="header">
   <p>Bem-Vinda, ${getUser().displayName}!</p>
   <img src="./img/dev.svg" width="120px" alt="">
-
  </div>
   `;
 

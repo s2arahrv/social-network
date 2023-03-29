@@ -14,35 +14,27 @@ export default () => {
             <div class="form-box">
                     <p>Para fazer parte dessa comunidade você precisa estar logado</p>              
                 <form class="form-login">
-
                     <div class="input-box">
                         <span>Digite seu e-mail</span>
                         <input type="email" class="input-login-email" placeholder="">
                         <p id='error-code' class='error-email'></p>  
                     </div>
-
                     <div class="input-box">
                         <span>Digite sua senha</span>
                         <input type="password" class="input-login-password" placeholder="">
                         <p id='error-code' class='error-password'></p>  
                     </div>
-
                         <p class='error-message'></p> 
-
                     <div class="input-box">
                         <button type="button" class="login-btn" >Entrar</button>
                     </div>
-
                     <div class="input-box">
                        <p>Não Tem Uma Conta?<a href="" id="cadastrar">  Cadastrar</a></p>                       
                     </div>
-
                 </form>
-
                 <div class="box-google-title">
                   <h4>Ou se preferir, você pode logar com</h4>
                 <div>
-
                 <div class="box-google">
                 <button type="submit" class="btn-login-google"><img class='img-google'src="img/google.png"></button> 
                 <div>

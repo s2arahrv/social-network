@@ -177,6 +177,7 @@ height: 100px;
 
   }
 
+
   @media (min-width:700px) {
 .allPosts {
     display: flex;
