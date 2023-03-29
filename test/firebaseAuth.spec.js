@@ -34,7 +34,6 @@ describe('signIn', () => {
     expect(createUserWithEmailAndPassword).toHaveBeenCalledTimes(1);
     expect(createUserWithEmailAndPassword).toHaveBeenCalledWith(
       undefined,
-      displayName,
       email,
       password,
     );

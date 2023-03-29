@@ -172,9 +172,11 @@ height: 100px;
     margin-left: 60px; 
   }
 
-  .hidden{
-    display: none;
-}
+  #btn-save {
+    visibility: hidden;
+
+  }
+
 
   @media (min-width:700px) {
 .allPosts {
