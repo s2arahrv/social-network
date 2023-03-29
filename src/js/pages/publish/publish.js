@@ -24,6 +24,7 @@ const timelinePosts = (post) => {
     <button class="btn-edit" id="btn-edit" data-id="${post.userId}">
     <img src="./img/pencil-line.svg" alt="editar"/>
     </button>
+    <button id="btn-save" data-id="${post.userId}">Salvar</button>
   </div>
     `;
   }
@@ -88,13 +89,18 @@ const timelinePosts = (post) => {
   }
 
   const btnEdit = container.querySelector('#btn-edit');
+  const btnSave = container.querySelector('#btn-save');
+
   if (btnEdit) {
     btnEdit.addEventListener('click', (e) => {
       const textarea = container.querySelector('#post-published');
       textarea.removeAttribute('disabled');
+      btnSave.style.visibility = 'visible';
       btnEdit.removeEventListener('click', e);
-      btnEdit.addEventListener('click', () => {
+
+      btnSave.addEventListener('click', () => {
         textarea.setAttribute('disabled', 'true');
+        btnSave.style.visibility = 'hidden';
         updatePost(post.id, textarea.value);
       });
     });

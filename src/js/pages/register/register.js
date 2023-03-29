@@ -87,10 +87,9 @@ export default () => {
     );
     if (validation === null) {
       signIn(
+        name.value,
         email.value,
         password.value,
-        passwordTwo.value,
-        name.value,
       )
         .then(() => {
           redirect('#login');
