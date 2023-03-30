@@ -19,4 +19,4 @@ Há redes sociais de todo tipo para todos os tipos de interesse.
 
 ![print rick and morty](./src/img/cadastro-desktop.png)
 
-  <img width= "288px" src= "./src/img/cadastro-desktop.png">
+  <img width= "350px" src= "./src/img/cadastro-desktop.png">
