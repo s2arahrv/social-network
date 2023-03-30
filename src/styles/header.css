@@ -1,3 +1,5 @@
+@import "./header.css";
+
 .logo{
     width: 100vw;
     height: 110px;
@@ -37,3 +39,4 @@
 
        
 }
+

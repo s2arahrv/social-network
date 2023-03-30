@@ -133,7 +133,9 @@ export default () => {
   <div class='publish'>
     <section class='card-publish'>
     <textarea class='post-publish' id='post-publish' cols='60' rows='10' placeholder="Digite aqui sua Publicação" style='resize:none'></textarea>
-  <button class='publish-btn' id='publish-btn'>Publicar</button>
+    <p class='message-textarea'></p>
+   
+    <button class='publish-btn' id='publish-btn'>Publicar</button>
 </section>
   <div class='container-main'>
     <div class='allposts' id='publishingPost'></div>
@@ -148,6 +150,7 @@ export default () => {
   const btnPublish = containerPublish.querySelector('#publish-btn');
   const postPublish = containerPublish.querySelector('#post-publish');
   const allPosts = containerPublish.querySelector('#allPosts');
+  const messageTextarea = containerPublish.querySelector('.message-textarea');
 
   btnPublish.addEventListener('click', async () => {
     const postsContainer = containerPublish.querySelector('#publishingPost');
@@ -156,8 +159,16 @@ export default () => {
       let postRef = await newPost(postContent);
       postRef = await readOnePost(postRef.id);
       postsContainer.appendChild(timelinePosts(postRef));
+      messageTextarea.innerHTML = 'Publicação realizada com sucesso!';
+      postPublish.innerHTML = '';
+      // setTimeout(() => {
+      // messageTextarea.remove();
+      // }, 2000);
     } else {
-      alert('Ops, parece que seu post está vazio');
+      messageTextarea.innerHTML = 'Campo vazio, por favor digite sua publicação';
+      // setTimeout(() => {
+      //   messageTextareaErro.remove();
+      // }, 2000);
     }
 
     postPublish.value = '';

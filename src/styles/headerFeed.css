@@ -18,9 +18,7 @@
 	
 .header-feed{
 		background-color: rgba(20, 95, 131, 1);
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		place-items: center;
 		width: 100vw;
 	}
 	

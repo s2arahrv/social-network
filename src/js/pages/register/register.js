@@ -47,6 +47,7 @@ export default () => {
                     <p id='error-message'></p>  
                     <div class="form-control">
                       <button type='sumbit' class="register-btn">Cadastrar conta</button>
+                      <p class='message-cadastro'></p>
                    </div>
                      </form>
                 </div>
@@ -64,6 +65,7 @@ export default () => {
   const password = containerRegister.querySelector('.input-register-password');
   const passwordTwo = containerRegister.querySelector('.input-register-passwordTwo');
   const errorMessage = containerRegister.querySelector('#error-message');
+  const messageCadastro = containerRegister.querySelector('.message-cadastro');
 
   function errorValidation() {
     containerRegister.querySelectorAll('.error-name, .error-email, .error-password, .error-passwordTwo')
@@ -91,6 +93,7 @@ export default () => {
         password.value,
       )
         .then(() => {
+          messageCadastro.innerHTML = 'Cadastro realizado com sucesso!';
           redirect('#login');
         })
         .catch((error) => {

@@ -11,6 +11,7 @@
     margin: auto;  
     padding-bottom: 100px;
     background-color: #003b4e;
+    height: 100%;
 
 }
 
@@ -111,6 +112,11 @@ height: 100px;
     margin-top: 5px;
   }
 
+  .publish-btn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
  .btn-like,
  .btn-delete,
  .btn-edit {
@@ -203,6 +209,10 @@ height: 100px;
 
   .hidden{
     display: none;
+}
+
+.message-textarea{
+  color: #add8ec;
 }
 
 
