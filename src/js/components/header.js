@@ -8,7 +8,6 @@ export function header() {
 </section>
 <div class="header">
 <p>Olá Deva! Seja bem vinda, esta comunidade foi criada com o objetivo de conectar você com as vagas de emprego disponiveis na área da tecnologia.</p>
-<img src="./img/dev.svg" width="120px" alt="">
 </div>
 `;
 

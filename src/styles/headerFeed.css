@@ -1,8 +1,6 @@
-.bnt-logout img{
-	width: 80px;
-}
+@import "./reset.css";
 
-.logo{
+.logo-feed{
     width: 100vw;
     height: 110px;
     left: 0px;
@@ -13,38 +11,34 @@
     align-items: center;
 }
 
-.bnt-logout{
-	width: 10px;
-}
-
-.logo img{
-	width: 236px;
+.logo-feed img{
+	width: 230px;
 	height: 77px;
 	}
 	
-.header{
+.header-feed{
 		background-color: rgba(20, 95, 131, 1);
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 100%;
+		width: 100vw;
 	}
 	
-.header p{
+.header-feed p{
 		padding: 1rem;
 		color: #e4e4e4;
 		text-align: center;
-		font-size: 1.2rem;
+		font-size: .9rem;
 	  
 	}
-.header img{
+.header-feed img{
 		padding: 1rem;
-		width: 200px;
+		width: 180px;
 	}
 
 	@media (min-width:700px){
-		.header p{       
-			font-size: 118%;
+		.header-feed p{       
+			font-size: 150%;
 		  
 		}
 	

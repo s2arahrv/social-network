@@ -10,12 +10,15 @@ import {
   readAllPosts,
   newPost,
   readOnePost,
-  auth,
+  getUser,
 } from '../../../firebase/auth.js';
+
+import coracaoDeslike from '../../../img/heart.svg';
+import coracaoLike from '../../../img/heart-fill.svg';
 
 const timelinePosts = (post) => {
   let buttons = '';
-  if (auth.currentUser.uid === post.userId) {
+  if (getUser().uid === post.userId) {
     buttons = `  
     <button class="btn-delete" id="btn-delete" data-id="${post.userId}"><img src="./img/trash.svg" alt="deletar"/></button>
     <button class="btn-edit" id="btn-edit" data-id="${post.userId}"><img src="./img/pencil-line.svg" alt="editar"/></button>
@@ -38,7 +41,7 @@ const timelinePosts = (post) => {
 
    <div class='buttons'>
    <button class='btn-like' id='btn-like' value=>
-   <img class='btn-like-icon' src='./img/heart.svg'alt='like'>
+   <img btn-like-icon ${post.likes.includes(getUser().uid) ? `src="${coracaoLike}"` : `src="${coracaoDeslike}"`}>
   <p class='number-likes'>${post.likes.length}</p>
   </button>
    ${buttons} 
@@ -107,15 +110,14 @@ const timelinePosts = (post) => {
 
   const btnLike = container.querySelector('#btn-like');
   btnLike.addEventListener('click', () => {
-    const user = auth.currentUser;
-    if (post.likes.includes(user.uid)) {
-      deslikePost(post.id, user.uid);
-      post.likes.splice(post.likes.indexOf(user.uid));
-      btnLike.innerHTML = `<img class='btn-like-icon' src='./img/heart.svg' alt='like'><p class='number-likes'>${post.likes.length}</p>`;
+    if (post.likes.includes(getUser().uid)) {
+      deslikePost(post.id, getUser().uid);
+      post.likes.splice(post.likes.indexOf(getUser().uid));
+      btnLike.innerHTML = `<img class='btn-like-icon' src='${coracaoDeslike}' alt='deslike'><p class='number-likes'>${post.likes.length}</p>`;
     } else {
-      likePost(post.id, user.uid);
-      post.likes.push(user.uid);
-      btnLike.innerHTML = `<img class='btn-like-icon' src='./img/heart-fill.svg' alt='liked'><p class='number-likes'>${post.likes.length}</p>`;
+      likePost(post.id, getUser().uid);
+      post.likes.push(getUser().uid);
+      btnLike.innerHTML = `<img class='btn-like-icon' src='${coracaoLike}' alt='like'><p class='number-likes'>${post.likes.length}</p>`;
     }
     btnLike.querySelector('p').innerText = post.likes.length;
   });

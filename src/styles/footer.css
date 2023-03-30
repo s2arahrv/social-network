@@ -1,6 +1,8 @@
+@import "./reset.css";
+
 .footer-global{
     background-color: #13283B;
-    width: 100vw;   
+    width: 100%;   
     position: fixed;
     bottom: 0;
     align-items: center;

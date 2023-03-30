@@ -9,7 +9,7 @@ export default () => {
 
   const templateRegister = `
   <div class="container-register">
-        <div class="img-box">
+        <div class="img-box-register">
             <img src="img/login.svg">
         </div>
         <div class="content-box-register">        

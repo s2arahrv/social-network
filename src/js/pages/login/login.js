@@ -7,11 +7,11 @@ export default () => {
   const containerLogin = document.createElement('div');
   const templateLogin = `
   <div class="container-login">
-        <div class="img-box">
+        <div class="img-box-login">
             <img src="img/login.svg">
         </div>
-        <div class="content-box">        
-            <div class="form-box">
+        <div class="content-box-login">        
+            <div class="form-box-login">
                     <p>Para fazer parte dessa comunidade você precisa estar logado</p>              
                 <form class="form-login">
                     <div class="input-box">
