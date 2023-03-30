@@ -15,11 +15,9 @@ Há redes sociais de todo tipo para todos os tipos de interesse.
 
 ## Prototipos do projeto
 ##### Protótipos Desktop 
-  <img width= "350px" src= "./src/img/Group 8.png">
+  <img width= "900px" src= "./src/img/Group 8.png">
 
 
 ##### Protótipos Mobile
-<img width= "350px" src= "./src/img/login-mobile.png">
- <img width= "350px" src= "./src/img/cadastro-mobile.png">
- <img width= "350px" src= "./src/img/publicação-mobile.png">
- <img width= "350px" src= "./src/img/sobre-mobile.png">
+<img width= "350px" src= "./src/img/Group 9.png">
+
