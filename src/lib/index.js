@@ -1,7 +1,7 @@
 import login from '../js/pages/login/login.js';
 import register from '../js/pages/register/register';
 import publish from '../js/pages/publish/publish.js';
-import { redirect } from '../redirect.js';
+import sobre from '../js/pages/sobre/sobre.js';
 
 const main = document.querySelector('#root');
 
@@ -21,6 +21,9 @@ const init = () => {
       case '#sair':
         main.append(login());
         break;
+      case '#sobre':
+        main.append(sobre());
+        break;
       default:
         main.append(login());
     }
@@ -29,6 +32,5 @@ const init = () => {
 
 window.addEventListener('load', () => {
   main.appendChild(login());
-  redirect('');
   init();
 });

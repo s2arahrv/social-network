@@ -10,13 +10,20 @@ export function footer() {
   <ul>
     <div class="li">
       <li>
-         <a href="/#profile">
+         <a id='sobre' href="/#sobre">
           <img src="./img/user-square.svg" alt="">
            <p class="text">Sobre</p>
          </a>
       </li>
     </div>
-      
+    <div class="li">
+      <li>
+         <a href="/#publish">
+          <img src="./img/house.svg" alt="">
+           <p class="text">feed</p>
+         </a>
+      </li>
+    </div>      
     <div class="li">
       <li>      
         <a href="/#sair">
@@ -31,9 +38,14 @@ export function footer() {
   containerFooter.innerHTML = templateFooter;
 
   const btnDisconnect = containerFooter.querySelector('#sair');
-  btnDisconnect.addEventListener('click', async () => {
-    await disconnect();
+  btnDisconnect.addEventListener('click', () => {
+    disconnect();
     redirect('#login');
+  });
+
+  const sobre = containerFooter.querySelector('#sobre');
+  sobre.addEventListener('click', () => {
+    redirect('#sobre');
   });
 
   return containerFooter;
