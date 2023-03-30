@@ -15,8 +15,7 @@ Há redes sociais de todo tipo para todos os tipos de interesse.
 
 ## Prototipos do projeto
 ##### Protótipos Desktop 
-  <img width= "350px" src= "./src/img/cadastro-desktop.png">
-  <img width= "350px" src= "./src/img/login-desktop.png">
+    <img width= "350px" src= "./src/img/loginecadastro.png">
 
 ##### Protótipos Mobile
 <img width= "350px" src= "./src/img/login-mobile.png">
