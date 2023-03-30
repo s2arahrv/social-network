@@ -19,5 +19,5 @@ Há redes sociais de todo tipo para todos os tipos de interesse.
 
 
 ##### Protótipos Mobile
-<img width= "350px" src= "./src/img/Group 9.png">
+<img width= "900px" src= "./src/img/Group 9.png">
 
