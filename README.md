@@ -14,10 +14,29 @@ Há redes sociais de todo tipo para todos os tipos de interesse.
 ***
 
 ## Prototipos do projeto
-##### Protótipos Desktop 
+### Protótipos Desktop 
   <img width= "900px" src= "./src/img/Group 8.png">
 
 
-##### Protótipos Mobile
-<img width= "900px" src= "./src/img/Group 9.png">
+### Protótipos Mobile
+**Telas de login e cadastro
+<img width= "900px" src= "./src/img/Group 10.png">
+
+**Telas de feed e sobre
+<img width= "900px" src= "./src/img/Group 11.png">
+
+### História de usuário                                                                                                                                                                                                                                                                                          ### História 1                                                                                                                      
+<img width= "900px" src= "./src/img/história 1.png">
+
+### História 2
+<img width= "900px" src= "./src/img/história 2.png">
+
+### História 3    
+<img width= "900px" src= "./src/img/história 3.png">
+
+### História 4    
+<img width= "900px" src= "./src/img/história 4.png">
+
+### História 5    
+<img width= "900px" src= "./src/img/história 5.png">
 
