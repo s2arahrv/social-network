@@ -1,7 +1,4 @@
 // eslint-disable-next-line import/no-unresolved
-
-import { headerFeed } from '../../components/headerFeed';
-import { footer } from '../../components/footer.js';
 import {
   deletePost,
   likePost,
@@ -127,7 +124,7 @@ const timelinePosts = (post) => {
   return container;
 };
 
-export default () => {
+export function publish(timelinePost) {
   const containerPublish = document.createElement('div');
   containerPublish.classList.add('container-publish');
   const showPosts = readAllPosts();
@@ -145,9 +142,7 @@ export default () => {
   </div>
 </div>`;
 
-  containerPublish.append(headerFeed());
   containerPublish.innerHTML += templatePublish;
-  containerPublish.append(footer());
 
   const btnPublish = containerPublish.querySelector('#publish-btn');
   const postPublish = containerPublish.querySelector('#post-publish');
@@ -182,5 +177,5 @@ export default () => {
       allPosts.appendChild(timelinePosts(post));
     });
   });
-  return containerPublish;
-};
+  timelinePost.appendChild(containerPublish);
+}

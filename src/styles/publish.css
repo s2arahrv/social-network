@@ -3,7 +3,7 @@
 @import "./footer.css";
 
 .container-publish{
-  width: 100vw;
+   width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,9 @@
     margin: auto;  
     padding-bottom: 100px;
     background-color: #003b4e;
-    height: 100%;
+    height: 100%;display: flex;
+    align-items: center;  
+    width: 100%;
 
 }
 
@@ -215,16 +217,90 @@ height: 100px;
   color: #add8ec;
 }
 
-
-  @media (min-width:700px) {
-
-  .container-post-data {
-    width: 28rem;
-    height: 10rem;
+.display{
+  display: flex;
 }
 
-.card-publish{
-  width: 30rem;
+.section-main-feed{
+  background-color: #003b4e;
+
+  
 }
 
+.img-feed{
+  display:none;
+}
+
+@media (min-width: 900px) and (max-width: 1054px){
+  .section-main-feed{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;      
+      margin: auto;
   }
+  .container-publish{
+   margin-left: 500px;
+ 
+ }
+ 
+  .img-feed{
+      display:block;
+      width: 400px;
+      position: fixed;
+      bottom: 15%;
+      left: 80px;
+  
+  }
+ 
+}
+
+@media (min-width: 1055px) and (max-width: 1149px){
+  .section-main-feed{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;      
+      margin: auto;
+  }
+  .container-publish{
+   margin-left: 500px;
+ 
+ }
+ 
+  .img-feed{
+      display:block;
+      width: 500px;
+      position: fixed;
+      bottom: 15%;
+      left: 80px;
+  
+  }
+ 
+}
+
+
+@media (min-width: 1150px){
+  .section-main-feed{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;      
+      margin: auto;
+  }
+  .container-publish{
+   margin-left: 500px;
+ 
+ }
+ 
+  .img-feed{
+      display:block;
+      width: 550px;
+      position: fixed;
+      bottom: 15%;
+      left: 80px;
+  
+  }
+ 
+}
+

@@ -1,6 +1,6 @@
 import login from '../js/pages/login/login.js';
 import register from '../js/pages/register/register';
-import publish from '../js/pages/publish/publish.js';
+import feed from '../js/pages/feed/feed.js';
 import sobre from '../js/pages/sobre/sobre.js';
 
 const main = document.querySelector('#root');
@@ -15,8 +15,8 @@ const init = () => {
       case '#register':
         main.append(register());
         break;
-      case '#publish':
-        main.append(publish());
+      case '#feed':
+        main.append(feed());
         break;
       case '#sair':
         main.append(login());

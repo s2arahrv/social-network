@@ -18,7 +18,7 @@ export function footer() {
     </div>
     <div class="li">
       <li>
-         <a href="/#publish">
+         <a href="/#feed">
           <img src="./img/house.svg" alt="">
            <p class="text">feed</p>
          </a>
