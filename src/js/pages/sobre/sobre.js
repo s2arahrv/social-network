@@ -10,36 +10,33 @@ export default () => {
   Nela a usuária poderá criar uma conta de acesso, logar-se com ela, criar, editar, deletar e dar likes em publicações.</p> 
 
   <h1>Desenvolvedoras</h1>
+<div class='cardContainer'>
+<div class="cardItem">
+<a href="https://github.com/daianedosanjos?tab=repositories">
+<img class="card-img" src="./img/daiane.jpg" alt="foto de Daiane"></a> 
 
-		<div class='cardContainer'>
-			<div class="cardItem">
-				<a href="https://github.com/daianedosanjos?tab=repositories">
-						<img class="card-img" src="./img/daiane.jpg" alt="foto de Daiane">
-				</a> 
+<ul>
+<li class= "title">Daiane dos Anjos</li>
+<li><a href="https://github.com/daianedosanjos?tab=repositories" target="_blank"> Perfil GitHub
+           </a> </li>
+<li><a href="https://www.linkedin.com/in/daianeanjos" target="_blank"> Perfil Linkedin
+           </a> </li>
+</ul>
+</div>
+<div class="cardItem">
+<a href="https://github.com/daianedosanjos?tab=repositories">
+<img class="card-img" src="./img/daiane.jpg" alt="foto de Sarah">
+</a> 
 
-				<ul>
-					<li class= "title">Daiane dos Anjos</li>
-					<li><a href="https://github.com/daianedosanjos?tab=repositories" target="_blank"> Perfil GitHub
+<ul>
+<li class= "title">Sarah Rodrigues</li>
+<li><a href="https://github.com/s2arahrv" target="_blank"> Perfil GitHub
            </a> </li>
-					<li><a href="https://www.linkedin.com/in/daianeanjos" target="_blank"> Perfil Linkedin
+<li><a href="https://github.com/daianedosanjos?tab=repositories" target="_blank"> Perfil Linkedin
            </a> </li>
-					</ul>
-			</div>
-				
-			<div class="cardItem">
-				<a href="https://github.com/daianedosanjos?tab=repositories">
-						<img class="card-img" src="./img/daiane.jpg" alt="foto de Sarah">
-				</a> 
-
-				<ul>
-					<li class= "title">Sarah Rodrigues</li>
-					<li><a href="https://github.com/s2arahrv" target="_blank"> Perfil GitHub
-           </a> </li>
-					<li><a href="https://github.com/daianedosanjos?tab=repositories" target="_blank"> Perfil Linkedin
-           </a> </li>
-					</ul>
-			</div>
-		</div>
+</ul>
+</div>
+</div>
  </div>
   `;
 

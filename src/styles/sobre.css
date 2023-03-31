@@ -9,6 +9,7 @@
 	flex-direction: column;
 	color: #add8ec;
 	text-align: center;
+	height: 100%;
 	
 }
 
@@ -27,6 +28,7 @@
 	margin: 1rem;
 	margin-bottom: 70px;
 	height: 100%;
+	position: relative;	
 }
 
 ul{
@@ -42,13 +44,13 @@ ul{
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
-	place-items: center;
+	justify-content: center; align-items: center;
 	height: 200px;	
 	margin: auto 8px;
-	margin-top: 2%;
 	width: 200px;
 	opacity: 80%;
 	padding: .25rem .25rem 0rem .25rem;
+	margin-bottom: 30px;
 
 
 }

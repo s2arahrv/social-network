@@ -7,6 +7,7 @@
     bottom: 0;
     align-items: center;
     display: inline-block;
+    z-index: 99;
 }
 .footer{     
     text-align: center;     
