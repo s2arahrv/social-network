@@ -2,28 +2,24 @@ import { getAuth } from 'firebase/auth';
 import {
   addDoc,
   collection,
-  // query, getDocs, orderBy,
-  // getDoc,
+  getDoc,
   doc,
   deleteDoc,
   updateDoc,
   arrayUnion,
   arrayRemove,
-  // getDoc,
+  getDocs,
 } from 'firebase/firestore';
 
 import {
   createPostData,
   newPost,
-  // updatePost,
-  // readAllPosts,
-  // readOnePost,
-  // updatePost,
   deletePost,
   likePost,
   deslikePost,
   updatePost,
-  // readOnePost,
+  readAllPosts,
+  readOnePost,
 } from '../src/firebase/auth.js';
 
 jest.mock('firebase/firestore');
@@ -43,7 +39,6 @@ beforeEach(() => {
 
 describe('createPostData', () => {
   it('should create data for the new post', () => {
-  // const mockDate = new Date().toLocaleDateString;
     const mockUser = getAuth().currentUser;
 
     const mockUserId = mockUser.uid;
@@ -65,21 +60,6 @@ describe('createPostData', () => {
     expect(createPostData(mockContent)).toEqual(mockData);
   });
 });
-
-// export const createPostData = (postContent) => {
-//   const date = new Date();
-//   return {
-//     message: postContent,
-//     userId: getUser().uid,
-//     userName: getUser().displayName,
-//     // image: '',
-//     // answers: [],
-//     likes: [],
-//     publishDate: date.toLocaleDateString(),
-//     editDate: date.toLocaleDateString(),
-
-//   };
-// };
 
 describe('newPost', () => {
   it('is a function', () => {
@@ -123,56 +103,47 @@ describe('readAllPosts', () => {
     expect(typeof newPost).toBe('function');
   });
 
-  //   it('should get all posts from collection by publish date', async () => {
-  //     const mockQuery = query.mockReturnValue();
-  //     const mockOrder = orderBy.mockReturnValue();
-  //     const mockCollection = collection.mockReturnValue();
-  //     const mockPosts = [];
+  it('should get all posts from collection by publish date', async () => {
+    const mockPosts = [
+      {
+        data: () => ({
+          message: 'hello',
+        }),
+        id: '123',
+      },
+    ];
+    const result = [{
+      id: '123',
+      message: 'hello',
+    }];
 
-  //     getDocs.mockResolvedValue();
-
-  //     const mockSnapshot = await getDocs(mockQuery);
-
-  //     await readAllPosts();
-
-//     expect(query).toHaveBeenCalledTimes(1);
-//     expect(query).toHaveBeenCalledWith(mockCollection, mockOrder);
-//   });
+    getDocs.mockReturnValue(mockPosts);
+    const posts = await readAllPosts();
+    expect(posts).toEqual(result);
+  });
 });
 
 describe('readOnePost', () => {
   it('is a function', () => {
-    expect(typeof newPost).toBe('function');
+    expect(typeof readOnePost).toBe('function');
   });
 
-  // it('returns a post id and data', async () => {
-  //   const mockDoc = 'doc';
-  //   doc.mockResolvedValue(mockDoc);
-
-  //   const mockId = 'post-id';
-  //   const mockPost = await getDoc(mockDoc);
-  //   const mockReturn = {
-  //     id: mockId,
-  //     ...mockPost.data(),
-  //   };
-
-  //   readOnePost(mockId);
-
-  //   expect(getDoc).toHaveBeenCalledTimes(1);
-  //   expect(getDoc).toHaveBeenCalledWith(mockDoc);
-  //   expect(doc).toHaveBeenCalledTimes(1);
-  //   expect(doc).toHaveBeenCalledWith(undefined, 'posts', mockId);
-  //   expect(mockPost).toBe(mockReturn);
-  // });
+  it('should get one post', async () => {
+    const mockPost = {
+      data: () => ({
+        message: 'hello',
+      }),
+      id: '123',
+    };
+    const result = {
+      id: '123',
+      message: 'hello',
+    };
+    getDoc.mockImplementation(() => mockPost);
+    const posts = await readOnePost();
+    expect(posts).toEqual(result);
+  });
 });
-
-// export const readOnePost = async (idPost) => {
-//   const post = await getDoc(doc(db, 'posts', idPost));
-//   return {
-//     id: post.id,
-//     ...post.data(),
-//   };
-// };
 
 describe('updatePost', () => {
   it('should update a post when it is edited', () => {
