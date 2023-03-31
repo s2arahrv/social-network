@@ -13,7 +13,7 @@ Há redes sociais de todo tipo para todos os tipos de interesse.
 
 ***
 
-### 5.3 Histórias de usuário
+## Histórias de usuário
 
 Depois de entender as necessidades dos nossos usuários, escrevemos as Histórias de
 Usuário. Elas representam tudo o que ele precisa fazer/ver na Rede Social.
@@ -47,15 +47,15 @@ Cada uma de suas histórias de usuário possui:
 <img width= "500px" src= "./src/img/História3.png">
 
 ### História 4    
-<img width= "900px" src= "./src/img/História4.png">
+<img width= "500px" src= "./src/img/História4.png">
 
 ### História 5    
 <img width= "500px" src= "./src/img/História5.png">
 
 
-### Protótipos Desktop 
 
-#### Telas de login e cadastro
+
+### Login e cadastro
 * _Login_ com Firebase:
   - Para o _login_ e postagens na timeline, você pode usar o
     [Firebase](https://firebase.google.com/products/database/)
@@ -70,9 +70,13 @@ Cada uma de suas histórias de usuário possui:
   - Se houver erros, mensagens descritivas devem ser exibidas para ajudar o
     usuário.
 
+  #### Protótipos Desktop 
   <img width= "900px" src= "./src/img/Group 8.png">
 
-#### Timeline/linha do tempo e sobre
+  #### Protótipos Mobile
+  <img width= "500px" src= "./src/img/Group 10.png">
+
+### Timeline/linha do tempo e sobre
 
 * Validações:
   - Ao publicar, deve ser validado se há conteúdo no _input_.
@@ -90,14 +94,13 @@ Cada uma de suas histórias de usuário possui:
     informação editada.
   - Ao recarregar a página, poder ver os textos editados.
 
+  #### Protótipos Desktop 
+  <img width= "900px" src= "./src/img/Group 8.png">
 
-### Protótipos Mobile
+  #### Protótipos Mobile
+ <img width= "500px" src= "./src/img/Group 11.png">
 
-#### Telas de login e cadastro
-<img width= "500px" src= "./src/img/Group 10.png">
-
-#### Telas de feed e sobre
-<img width= "500px" src= "./src/img/Group 11.png">
+***
 
 ## Objetivos de aprendizagem
 
