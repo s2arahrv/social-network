@@ -20,23 +20,23 @@ Há redes sociais de todo tipo para todos os tipos de interesse.
 
 ### Protótipos Mobile
 **Telas de login e cadastro
-<img width= "900px" src= "./src/img/Group 10.png">
+<img width= "500px" src= "./src/img/Group 10.png">
 
 **Telas de feed e sobre
-<img width= "900px" src= "./src/img/Group 11.png">
+<img width= "500px" src= "./src/img/Group 11.png">
 
 ### História de usuário                                                                                                                                                                                                                                                                                          ### História 1                                                                                                                      
-<img width= "900px" src= "./src/img/história 1.png">
+<img width= "900px" src= "./src/img/História1.png">
 
 ### História 2
-<img width= "900px" src= "./src/img/história 2.png">
+<img width= "900px" src= "./src/img/História2.png">
 
 ### História 3    
-<img width= "900px" src= "./src/img/história 3.png">
+<img width= "900px" src= "./src/img/História3.png">
 
 ### História 4    
-<img width= "900px" src= "./src/img/história 4.png">
+<img width= "900px" src= "./src/img/História4.png">
 
 ### História 5    
-<img width= "900px" src= "./src/img/história 5.png">
+<img width= "900px" src= "./src/img/História5.png">
 
