@@ -98,7 +98,7 @@ Cada uma de suas histórias de usuário possui:
   <img width= "900px" src= "./src/img/Group 8.png">
 
   #### Protótipos Mobile
- <img width= "500px" src= "./src/img/Group 11.png">
+  <img width= "500px" src= "./src/img/Group 11.png">
 
 ***
 

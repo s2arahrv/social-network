@@ -28,7 +28,9 @@ const timelinePosts = (post) => {
   const container = document.createElement('div');
 
   const templatePost = `  
+  
   <section class='container-posts-feed'>
+  
     <div class='container-post-data'>
       <div class='name'>
       <p class='user-name' id='user-name'><img src="./img/user-circle.svg" alt="">${post.userName}</p>

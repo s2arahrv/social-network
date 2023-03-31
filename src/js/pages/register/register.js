@@ -48,7 +48,10 @@ export default () => {
                     <div class="form-control">
                       <button type='sumbit' class="register-btn">Cadastrar conta</button>
                       <p class='message-cadastro'></p>
-                   </div>
+                   </div><div class="form-control">
+                   <button class="voltar" id="voltar" ><img src="./img/arrow.svg" alt="voltar"/></button>                  
+                   
+                    </div>
                      </form>
                 </div>
         </div>
@@ -66,6 +69,11 @@ export default () => {
   const passwordTwo = containerRegister.querySelector('.input-register-passwordTwo');
   const errorMessage = containerRegister.querySelector('#error-message');
   const messageCadastro = containerRegister.querySelector('.message-cadastro');
+  const btnVoltar = containerRegister.querySelector('#voltar');
+
+  btnVoltar.addEventListener('click', () => {
+    redirect('#login');
+  });
 
   function errorValidation() {
     containerRegister.querySelectorAll('.error-name, .error-email, .error-password, .error-passwordTwo')

@@ -139,6 +139,8 @@
     background: #3286ca;
 }
 
+.voltar { background-color: transparent; border: none; color: #607d8b;}
+
 @media (max-width: 650px) {
     .img-box-register img{
         display: none;
