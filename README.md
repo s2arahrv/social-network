@@ -98,9 +98,32 @@ Cada uma de suas histórias de usuário possui:
   <img width= "900px" src= "./src/img/feedesobre.png">
 
   #### Protótipos Mobile
-  <img width= "500px" src= "./src/img/feedesobre-mobile.png">
+  <img width= "500px" src= "./src/img/feedesobremobile.png">
 
 ***
+
+### `Tecnologias usadas`
+
+| Ferramenta | Descrição |
+| --- | --- |
+| `Vite` | gerador de projeto de front-end|
+| `npm`  | gerenciador de pacotes|
+| `Firebase` | Ferramenta realtime database para gravar as mensagens de contato|
+| `Phosphor icons` | Dependência com icones|
+| `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
+<br />
+
+### `Como rodar o projeto localmente`
+
+Siga os passos e inclua as informações abaixo:
+
+| Passo                       | Comando/informação |
+| --------------------------- | ------------------ |
+| Faça o fork                 | `botão de forkar`  |
+| Faça o clone                | `git clone`        |
+| Instale as dependências após acessar a pasta projeto    | `npm i`            |
+| Rode o projeto              | `npm start`        |
+
 
 ## Objetivos de aprendizagem
 
