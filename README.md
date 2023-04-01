@@ -1,6 +1,6 @@
 # Criando uma Rede Social
 
-## Índice
+## Sobre o Olá Devas
 
 Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. As redes sociais
 invadiram nossas vidas. Nós as amamos ou odiamos, e muitas pessoas não conseguem
@@ -71,10 +71,10 @@ Cada uma de suas histórias de usuário possui:
     usuário.
 
   #### Protótipos Desktop 
-  <img width= "900px" src= "./src/img/Group 8.png">
+  <img width= "900px" src= "./src/img/loginecadastro.png">
 
   #### Protótipos Mobile
-  <img width= "500px" src= "./src/img/Group 10.png">
+  <img width= "500px" src= "./src/img/loginecadastro-mobile.png">
 
 ### Timeline/linha do tempo e sobre
 
@@ -95,10 +95,10 @@ Cada uma de suas histórias de usuário possui:
   - Ao recarregar a página, poder ver os textos editados.
 
   #### Protótipos Desktop 
-  <img width= "900px" src= "./src/img/Group 8.png">
+  <img width= "900px" src= "./src/img/feedesobre.png">
 
   #### Protótipos Mobile
-  <img width= "500px" src= "./src/img/Group 11.png">
+  <img width= "500px" src= "./src/img/feedesobre-mobile.png">
 
 ***
 

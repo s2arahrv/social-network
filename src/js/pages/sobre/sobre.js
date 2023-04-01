@@ -12,27 +12,28 @@ export default () => {
   <h1>Desenvolvedoras</h1>
 <div class='cardContainer'>
 <div class="cardItem">
-<a href="https://github.com/daianedosanjos?tab=repositories">
-<img class="card-img" src="./img/daiane.jpg" alt="foto de Daiane"></a> 
 
 <ul>
 <li class= "title">Daiane dos Anjos</li>
+<li><a href="https://github.com/daianedosanjos?tab=repositories">
+<img class="card-img" src="./img/daiane.jpg" alt="foto de Daiane"></a> </li>
+<div class="redes">
 <li><a href="https://github.com/daianedosanjos?tab=repositories" target="_blank"><img class="link-img" src="./img/github.svg">
            </a> </li>
-<li><a href="https://www.linkedin.com/in/daianeanjos" target="_blank"><img class="link-img" src="./img/linkedin.png">
-           </a> </li>
+<li><a href="https://www.linkedin.com/in/daianeanjos" target="_blank"><img class="link-img" src="./img/linkedin.svg">
+           </a> </li></div>
 </ul>
 </div>
 <div class="cardItem">
-<a href="https://github.com/daianedosanjos?tab=repositories">
-<img class="card-img" src="./img/sarah.jpg" alt="foto de Sarah">
-</a> 
-
 <ul>
 <li class= "title">Sarah Rodrigues</li>
+<li><a href="https://github.com/daianedosanjos?tab=repositories">
+<img class="card-img" src="./img/sarah.jpg" alt="foto de Sarah">
+</a> </li>
+<div class="redes">
 <li><a href="https://github.com/s2arahrv" target="_blank"><img class="link-img" src="./img/github.svg"></a> </li>
-<li><a href="https://www.linkedin.com/in/sarah-rodrigues-251396270/s" target="_blank"><img class="link-img" src="./img/linkedin.png">
-           </a> </li>
+<li><a href="https://www.linkedin.com/in/sarah-rodrigues-251396270/s" target="_blank"><img class="link-img" src="./img/linkedin.svg">
+           </a> </li> </div>
 </ul>
 </div>
 </div>
