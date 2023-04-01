@@ -106,15 +106,15 @@ Cada uma de suas histórias de usuário possui:
 
 | Ferramenta                  | Descrição          |
 | --------------------------- | --------------- |
-| `HTML` | (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web.|
-| `CSS` | usado para estilizar elementos escritos em uma linguagem de marcação como HTML|
-| `Javascript` | linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma |
-| `figma` | Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web |
-| `Vite` | gerador de projeto de front-end|
-| `npm` | gerenciador de pacotes|
-| `Firebase` | Ferramenta realtime database para gravar as mensagens de contato|
-| `Phosphor icons` | Dependência com icones|
-| `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
+| HTML | `(Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web` |
+| CSS | `usado para estilizar elementos escritos em uma linguagem de marcação como HTML` |
+| Javascript | `linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma `|
+| figma | `Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web` |
+| Vite | `Gerador de projeto de front-end` |
+| npm | `Gerenciador de pacotes` |
+| Firebase | `Ferramenta realtime database para gravar as mensagens de contato` |
+| Phosphor icons | `Dependência com icones` |
+| Github | `Hospedagem do código fonte integrado com gerenciador de versionamento` |
 <br />
 
 ### `Como rodar o projeto localmente`
