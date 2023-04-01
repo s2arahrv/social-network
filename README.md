@@ -104,8 +104,8 @@ Cada uma de suas histórias de usuário possui:
 
 ### `Tecnologias usadas`
 
-| Ferramenta | Descrição |
-| --- | --- |
+| Ferramenta                  | Descrição          |
+| --------------------------- | ------------------ |
 | `HTML` | (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web.|
 | `CSS` | usado para estilizar elementos escritos em uma linguagem de marcação como HTML|
 | `Javascript` | linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma |
