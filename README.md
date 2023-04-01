@@ -115,7 +115,7 @@ Cada uma de suas histórias de usuário possui:
 | `Firebase` | Ferramenta realtime database para gravar as mensagens de contato|
 | `Phosphor icons` | Dependência com icones|
 | `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
->>>>>>> a126ac62c7a60780fde7d8bc85326da19a10cf78
+
 <br />
 
 ### `Como rodar o projeto localmente`
