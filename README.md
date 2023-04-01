@@ -56,9 +56,7 @@ Cada uma de suas histórias de usuário possui:
 
 
 ### Login e cadastro
-* _Login_ com Firebase:
-  - Para o _login_ e postagens na timeline, você pode usar o
-    [Firebase](https://firebase.google.com/products/database/)
+*Login: 
   - O usuário deve poder criar uma conta de acesso ou autenticar-se com conta de
     e-mail e senha e também com uma conta do Google.
 * Validações:
