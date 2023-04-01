@@ -56,7 +56,9 @@ Cada uma de suas histórias de usuário possui:
 
 
 ### Login e cadastro
-*Login: 
+* _Login_ com Firebase:
+  - Para o _login_ e postagens na timeline, você pode usar o
+    [Firebase](https://firebase.google.com/products/database/)
   - O usuário deve poder criar uma conta de acesso ou autenticar-se com conta de
     e-mail e senha e também com uma conta do Google.
 * Validações:
@@ -107,12 +109,12 @@ Cada uma de suas histórias de usuário possui:
 | `HTML` | (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web.|
 | `CSS` | usado para estilizar elementos escritos em uma linguagem de marcação como HTML|
 | `Javascript` | linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma |
-| `figma` | editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web |
-| `Vite` | gerador de projeto de front-end |
-| `npm`  | gerenciador de pacotes |
-| `Firebase` | Ferramenta realtime database para gravar as mensagens de contato |
-| `Phosphor icons` | Dependência com icones |
-| `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento |
+| `figma` | Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web |
+| `Vite` | gerador de projeto de front-end|
+| `npm` | gerenciador de pacotes|
+| `Firebase` | Ferramenta realtime database para gravar as mensagens de contato|
+| `Phosphor icons` | Dependência com icones|
+| `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
 <br />
 
 ### `Como rodar o projeto localmente`
@@ -124,7 +126,7 @@ Siga os passos e inclua as informações abaixo:
 | Faça o fork                 | `botão de forkar`  |
 | Faça o clone                | `git clone`        |
 | Instale as dependências após acessar a pasta projeto    | `npm i`            |
-| Rode o projeto              | `npm start`        |
+| Rode o projeto              | `npm start`       |
 
 
 ## Objetivos de aprendizagem
