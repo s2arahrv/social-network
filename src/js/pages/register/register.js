@@ -5,6 +5,7 @@ import { validationRegister } from '../../../validation.js';
 import { getErrorMessage } from '../../../firebase/error.js';
 
 import voltar from '../../../../public/img/arrow.svg';
+import imgLogin from '../../../../public/img/login.svg';
 
 export default () => {
   const containerRegister = document.createElement('div');
@@ -12,7 +13,7 @@ export default () => {
   const templateRegister = `
   <div class="container-register">
         <div class="img-box-register">
-            <img src="/img/login.svg">
+            <img src="${imgLogin}">
         </div>
         <div class="content-box-register">        
             <div class="form-box-register">
