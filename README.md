@@ -8,7 +8,7 @@ viver sem elas.
 Há redes sociais de todo tipo para todos os tipos de interesse.
 
   Olá devas é uma rede social para uso exclusivo de mulheres do setor tecnológico
-  Com o intuíto de diminuir o gap entre homens x mulheres no setor de tecnologia, o olá Devas, foi criado para facilitar a procura de vagas neste setor.
+  Com o intuíto na redução na desigualdade de gênero no setor de tecnologia o olá Devas, foi criado para facilitar a procura de vagas neste setor.
   Nela a usuária poderá criar uma conta de acesso, logar-se com ela, criar, editar, deletar e dar likes em publicações.
 
 ***
@@ -116,7 +116,7 @@ Cada uma de suas histórias de usuário possui:
 | `Phosphor icons` | Dependência com icones|
 | `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
 
-<br />
+
 
 ### `Como rodar o projeto localmente`
 
@@ -124,10 +124,10 @@ Siga os passos e inclua as informações abaixo:
 
 | Passo                       | Comando/informação |
 | --------------------------- | ------------------ |
-| Faça o fork                 | `botão de forkar`  |
-| Faça o clone                | `git clone`        |
-| Instale as dependências após acessar a pasta projeto    | `npm i`            |
-| Rode o projeto              | `npm start`       |
+| `Faça o fork`             | botão de forkar |
+| `Faça o clone`             | git clone       |
+| `Instale as dependências após acessar a pasta projeto`    | npm i            |
+| `Rode o projeto`           | npm start       |
 
 
 ## Objetivos de aprendizagem
