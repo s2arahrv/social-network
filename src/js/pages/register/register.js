@@ -10,7 +10,7 @@ export default () => {
   const templateRegister = `
   <div class="container-register">
         <div class="img-box-register">
-            <img src="img/login.svg">
+            <img src="../public/img/login.svg">
         </div>
         <div class="content-box-register">        
             <div class="form-box-register">
@@ -19,29 +19,29 @@ export default () => {
                    <div class="form-control">
                         <label for="name">Nome e sobrenome</label>
                         <input type="text" class="input-register-name" placeholder="">
-                        <i><img class="img-success" src="img/check-circle.svg"></i>
-                        <i><img class="img-error" src="img/warning-circle.svg"></i>
+                        <i><img class="img-success" src="../public/img/check-circle.svg"></i>
+                        <i><img class="img-error" src="../public/img/warning-circle.svg"></i>
                         <p id='error-code' class='error-name'></p>
                     </div>
                         <div class="form-control">
                         <label for="email">Digite seu e-mail</label>
                         <input type="email" class="input-register-email" placeholder="">
-                        <i><img class="img-success" src="img/check-circle.svg"></i>
-                        <i><img class="img-error" src="img/warning-circle.svg"></i>
+                        <i><img class="img-success" src="../public/img/check-circle.svg"></i>
+                        <i><img class="img-error" src="../public/img/warning-circle.svg"></i>
                         <p id='error-code' class='error-email'></p>
                     </div>
                     <div class="form-control">
                         <label for="password">Senha</label>
                         <input type="password" class="input-register-password" placeholder="">
-                        <i><img class="img-success" src="img/check-circle.svg"></i>
-                        <i><img class="img-error" src="img/warning-circle.svg"></i>
+                        <i><img class="img-success" src="../public/img/check-circle.svg"></i>
+                        <i><img class="img-error" src="../public/img/warning-circle.svg"></i>
                         <p id='error-code' class='error-password'></p>                  
                     </div>
                     <div class="form-control">
                         <label for="password">Senha</label>
                         <input type="password" class="input-register-passwordTwo" placeholder="">
-                        <i><img class="img-success" src="img/check-circle.svg"></i>
-                        <i><img class="img-error" src="img/warning-circle.svg"></i>
+                        <i><img class="img-success" src="../public/img/check-circle.svg"></i>
+                        <i><img class="img-error" src="../public/img/warning-circle.svg"></i>
                         <p id='error-code' class='error-passwordTwo'></p>                  
                     </div>
                     <p id='error-message'></p>  
@@ -49,7 +49,7 @@ export default () => {
                       <button type='sumbit' class="register-btn">Cadastrar conta</button>
                       <p class='message-cadastro'></p>
                    </div><div class="form-control">
-                   <button class="voltar" id="voltar" ><img src="./img/arrow.svg" alt="voltar"/></button>                  
+                   <button class="voltar" id="voltar" ><img src="../public/img/arrow.svg" alt="voltar"/></button>                  
                    
                     </div>
                      </form>

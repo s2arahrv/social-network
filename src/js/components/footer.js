@@ -11,7 +11,7 @@ export function footer() {
     <div class="li">
       <li>
          <a id='sobre' href="/#sobre">
-          <img src="./img/user-square.svg" alt="">
+          <img src="../public/img/user-square.svg" alt="">
            <p class="text">Sobre</p>
          </a>
       </li>
@@ -19,7 +19,7 @@ export function footer() {
     <div class="li">
       <li>
          <a href="/#feed">
-          <img src="./img/house.svg" alt="">
+          <img src="../public/img/house.svg" alt="">
            <p class="text">feed</p>
          </a>
       </li>

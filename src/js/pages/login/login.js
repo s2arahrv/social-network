@@ -8,7 +8,7 @@ export default () => {
   const templateLogin = `
   <div class="container-login">
         <div class="img-box-login">
-            <img src="img/login.svg">
+            <img src="../public/img/login.svg">
         </div>
         <div class="content-box-login">        
             <div class="form-box-login">
@@ -36,7 +36,7 @@ export default () => {
                   <h4>Ou se preferir, você pode logar com</h4>
                 <div>
                 <div class="box-google">
-                <button type="submit" class="btn-login-google"><img class='img-google'src="img/google.png"></button> 
+                <button type="submit" class="btn-login-google"><img class='img-google'src="../public/img/google.png"></button> 
                 <div>
                 
             </div>

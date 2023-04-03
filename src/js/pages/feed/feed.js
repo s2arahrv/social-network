@@ -11,7 +11,7 @@ export default () => {
   sectionMainFeed.classList.add('section-main-feed');
 
   const templateFeed = ` 
-  <img class='img-feed'src="img/publish.svg">
+  <img class='img-feed'src="../public/img/publish.svg">
   <section class='display section-timelineFeed' id='timeline-post-feed' >
     
   </section>

@@ -10,16 +10,15 @@ import {
   getUser,
 } from '../../../firebase/auth.js';
 
-import coracaoDeslike from '../../../img/heart.svg';
-import coracaoLike from '../../../img/heart-fill.svg';
-import usuario from '../../../img/user-circle.svg';
+import coracaoDeslike from '../../../../public/img/heart.svg';
+import coracaoLike from '../../../../public/img/heart-fill.svg';
 
 const timelinePosts = (post) => {
   let buttons = '';
   if (getUser().uid === post.userId) {
     buttons = `  
-    <button class="btn-delete" id="btn-delete" data-id="${post.userId}"><img src="./img/trash.svg" alt="deletar"/></button>
-    <button class="btn-edit" id="btn-edit" data-id="${post.userId}"><img src="./img/pencil-line.svg" alt="editar"/></button>
+    <button class="btn-delete" id="btn-delete" data-id="${post.userId}"><img src="/trash.svg" alt="deletar"/></button>
+    <button class="btn-edit" id="btn-edit" data-id="${post.userId}"><img src="/img/pencil-line.svg" alt="editar"/></button>
     <button id="btn-save" data-id="${post.userId}">Salvar</button>  
     `;
   }
@@ -31,7 +30,7 @@ const timelinePosts = (post) => {
   
     <div class='container-post-data'>
       <div class='name'>
-      <p class='user-name' id='user-name'><img src="${usuario} alt="">${post.userName}</p>
+      <p class='user-name' id='user-name'><img src="../public/img/user-circle.svg" alt="">${post.userName}</p>
       <p class='user-data' id='user-name'>${post.publishDate}</p>
     </div>
 
