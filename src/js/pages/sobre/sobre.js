@@ -1,6 +1,11 @@
 import { footer } from '../../components/footer';
 import { headerSobre } from '../../components/headerSobre';
 
+import imgSarah from '../../../../public/img/sarah.jpg';
+import imgDaiane from '../../../../public/img/daiane.jpg';
+import imgGithub from '../../../../public/img/github.svg';
+import imgLinkedin from '../../../../public/img/linkedin.svg';
+
 export default () => {
   const containerSobre = document.createElement('div');
   const templateSobre = `
@@ -16,11 +21,11 @@ export default () => {
 <ul>
 <li class= "title">Daiane dos Anjos</li>
 <li><a href="https://github.com/daianedosanjos?tab=repositories">
-<img class="card-img" src="./img/daiane.jpg" alt="foto de Daiane"></a> </li>
+<img class="card-img" src="${imgDaiane}" alt="foto de Daiane"></a> </li>
 <div class="redes">
-<li><a href="https://github.com/daianedosanjos?tab=repositories" target="_blank"><img class="link-img" src="./img/github.svg">
+<li><a href="https://github.com/daianedosanjos?tab=repositories" target="_blank"><img class="link-img" src="${imgGithub}">
            </a> </li>
-<li><a href="https://www.linkedin.com/in/daianeanjos" target="_blank"><img class="link-img" src="./img/linkedin.svg">
+<li><a href="https://www.linkedin.com/in/daianeanjos" target="_blank"><img class="link-img" src="${imgLinkedin}">
            </a> </li></div>
 </ul>
 </div>
@@ -28,11 +33,11 @@ export default () => {
 <ul>
 <li class= "title">Sarah Rodrigues</li>
 <li><a href="https://github.com/daianedosanjos?tab=repositories">
-<img class="card-img" src="./img/sarah.jpg" alt="foto de Sarah">
+<img class="card-img" src="${imgSarah}" alt="foto de Sarah">
 </a> </li>
 <div class="redes">
-<li><a href="https://github.com/s2arahrv" target="_blank"><img class="link-img" src="./img/github.svg"></a> </li>
-<li><a href="https://www.linkedin.com/in/sarah-rodrigues-251396270/s" target="_blank"><img class="link-img" src="./img/linkedin.svg">
+<li><a href="https://github.com/s2arahrv" target="_blank"><img class="link-img" src="${imgGithub}"></a> </li>
+<li><a href="https://www.linkedin.com/in/sarah-rodrigues-251396270/s" target="_blank"><img class="link-img" src="${imgLinkedin}">
            </a> </li> </div>
 </ul>
 </div>

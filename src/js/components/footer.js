@@ -1,6 +1,10 @@
 import { disconnect } from '../../firebase/auth';
 import { redirect } from '../../redirect';
 
+import userSquare from '../../../public/img/user-square.svg';
+import house from '../../../public/img/house.svg';
+import SignOut from '../../../public/img/sign-out.svg';
+
 export function footer() {
   const containerFooter = document.createElement('footer');
   containerFooter.classList.add('footer-global');
@@ -11,7 +15,7 @@ export function footer() {
     <div class="li">
       <li>
          <a id='sobre' href="/#sobre">
-          <img src="../public/img/user-square.svg" alt="">
+          <img src="${userSquare}" alt="">
            <p class="text">Sobre</p>
          </a>
       </li>
@@ -19,7 +23,7 @@ export function footer() {
     <div class="li">
       <li>
          <a href="/#feed">
-          <img src="../public/img/house.svg" alt="">
+          <img src="${house}" alt="">
            <p class="text">feed</p>
          </a>
       </li>
@@ -27,7 +31,7 @@ export function footer() {
     <div class="li">
       <li>      
         <a href="/#sair">
-          <img src="./img/sign-out.svg" alt="">
+          <img src="${SignOut}" alt="">
           <p id='sair'class="text">Sair</p>
         </a>
       </li>

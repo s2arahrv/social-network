@@ -3,12 +3,15 @@ import { login, loginGoogle } from '../../../firebase/auth.js';
 import { redirect } from '../../../redirect.js';
 import { getErrorMessage } from '../../../firebase/error.js';
 
+import loginImg from '../../../../public/img/login.svg';
+import imgGoogle from '../../../../public/img/google.png';
+
 export default () => {
   const containerLogin = document.createElement('div');
   const templateLogin = `
   <div class="container-login">
         <div class="img-box-login">
-            <img src="../public/img/login.svg">
+            <img src="${loginImg}">
         </div>
         <div class="content-box-login">        
             <div class="form-box-login">
@@ -36,7 +39,7 @@ export default () => {
                   <h4>Ou se preferir, você pode logar com</h4>
                 <div>
                 <div class="box-google">
-                <button type="submit" class="btn-login-google"><img class='img-google'src="../public/img/google.png"></button> 
+                <button type="submit" class="btn-login-google"><img class='img-google'src="${imgGoogle}"></button> 
                 <div>
                 
             </div>
