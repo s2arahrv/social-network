@@ -12,6 +12,7 @@ import {
 
 import coracaoDeslike from '../../../img/heart.svg';
 import coracaoLike from '../../../img/heart-fill.svg';
+import usuario from '../../../img/user-circle.svg';
 
 const timelinePosts = (post) => {
   let buttons = '';
@@ -30,7 +31,7 @@ const timelinePosts = (post) => {
   
     <div class='container-post-data'>
       <div class='name'>
-      <p class='user-name' id='user-name'><img src="./img/user-circle.svg" alt="">${post.userName}</p>
+      <p class='user-name' id='user-name'><img src="${usuario} alt="">${post.userName}</p>
       <p class='user-data' id='user-name'>${post.publishDate}</p>
     </div>
 

@@ -103,7 +103,6 @@ Cada uma de suas histórias de usuário possui:
 ***
 
 ### `Tecnologias usadas`
-
 | Ferramenta                  | Descrição          |
 | --------------------------- | -------------------|
 | `HTML` | (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web.|
@@ -119,7 +118,6 @@ Cada uma de suas histórias de usuário possui:
 
 
 ### `Como rodar o projeto localmente`
-
 Siga os passos e inclua as informações abaixo:
 
 | Passo                       | Comando/informação |
