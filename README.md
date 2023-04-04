@@ -38,7 +38,7 @@ Cada uma de suas histórias de usuário possui:
   - Fazer deploy do aplicativo e marcar a versão (git tag).
 
 ### História 1
-<img width= "500px" src= "../public/img/História1.png">
+<img width= "500px" src= "../../public/img/História1.png">
 
 ### História 2
 <img width= "500px" src= "../public/img/História2.png">
