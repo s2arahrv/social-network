@@ -74,7 +74,7 @@ Cada uma de suas histórias de usuário possui:
   <img width= "900px" src= "./public/img/loginecadastro.png">
 
   #### Protótipos Mobile
-  <img width= "500px" src= "./public/img/loginecadastro-mobile.png">
+  <img width= "500px" src= "./public/img/loginecadastromobile.png">
 
 ### Timeline/linha do tempo e sobre
 

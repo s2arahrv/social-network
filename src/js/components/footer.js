@@ -17,23 +17,19 @@ export function footer() {
           <img src="${userSquare}" alt="">
            <p class="text">Sobre</p>
          </a>
-      </li>
-    
+      </li>    
       <li class="li">
          <a href="/#feed">
           <img src="${house}" alt="">
            <p class="text">Feed</p>
          </a>
-      </li>
-       
-   
+      </li>  
       <li class="li">      
-        <a href="/#sair">
+        <a href="/#login">
           <img src="${SignOut}" alt="">
           <p id='sair'class="text">Sair</p>
         </a>
-      </li>
-   
+      </li>   
   </ul>
 </nav>`;
 
@@ -41,12 +37,17 @@ export function footer() {
 
   const btnDisconnect = containerFooter.querySelector('#sair');
   btnDisconnect.addEventListener('click', () => {
-    disconnect();
-    redirect('#login');
+    disconnect()
+      .then(() => {
+        redirect('#login');
+      })
+      .catch(() => {
+        redirect('#login');
+      });
   });
 
   const sobre = containerFooter.querySelector('#sobre');
-  sobre.addEventListener('click', () => {
+  sobre.addEventListener('click', async () => {
     redirect('#sobre');
   });
 

@@ -50,8 +50,6 @@ export const createPostData = (postContent) => {
     message: postContent,
     userId: getUser().uid,
     userName: getUser().displayName,
-    // image: '',
-    // answers: [],
     likes: [],
     publishDate: date.toLocaleDateString(),
     editDate: date.toLocaleDateString(),
