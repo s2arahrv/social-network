@@ -7,7 +7,7 @@ import loginImg from '../../../../public/img/login.svg';
 import imgGoogle from '../../../../public/img/google.png';
 
 export default () => {
-  const containerLogin = document.createElement('div');
+  const containerLogin = document.createElement('section');
   const templateLogin = `
   <div class="container-login">
         <div class="img-box-login">
