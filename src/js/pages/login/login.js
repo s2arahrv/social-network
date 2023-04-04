@@ -19,12 +19,12 @@ export default () => {
                 <form class="form-login">
                     <div class="input-box">
                         <span>Digite seu e-mail</span>
-                        <input type="email" class="input-login-email" placeholder="">
+                        <input type="email" class="input-login-email" placeholder="Digite seu e-mail">
                         <p id='error-code' class='error-email'></p>  
                     </div>
                     <div class="input-box">
                         <span>Digite sua senha</span>
-                        <input type="password" class="input-login-password" placeholder="">
+                        <input type="password" class="input-login-password" placeholder="Digite sua senha">
                         <p id='error-code' class='error-password'></p>  
                     </div>
                         <p class='error-message'></p> 

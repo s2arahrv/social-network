@@ -91,6 +91,14 @@
     
 }
 
+.input-login-name::placeholder {
+    font-size: .8rem;
+}
+
+.input-login-password::placeholder {
+    font-size: .8rem;
+}
+
 input {
     width: 100%;
     padding: 10px;
