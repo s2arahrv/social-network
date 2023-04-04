@@ -32,7 +32,7 @@ export default () => {
                         <button type="button" class="login-btn" >Entrar</button>
                     </div>
                     <div class="input-box">
-                       <p>Não Tem Uma Conta?<a href="" id="cadastrar">  Cadastrar</a></p>                       
+                       <p>Não tem uma conta? <a href="" id="cadastrar"> Cadastre-se</a></p>                       
                     </div>
                 </form>
                 <div class="box-google-title">
