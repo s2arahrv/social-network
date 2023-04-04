@@ -26,5 +26,4 @@ export default () => {
   publish(timelinePost);
 
   return containerFeed;
-
 };

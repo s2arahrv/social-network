@@ -95,27 +95,28 @@
     font-size: 1.1rem;
 }
 
-.form-control.success input {
-    border: 3px solid #4ECA64;
+.input-register-name::placeholder {
+    font-size: .8rem;
 }
 
-.form-control.error input {
-    border: 3px solid #D85A5A;
+.input-register-email::placeholder {
+    font-size: .8rem;
 }
+
+.input-register-password::placeholder {
+    font-size: .8rem;
+}
+
+.input-register-passwordTwo::placeholder {
+    font-size: .8rem;
+}
+
 
 .form-control i {
     position: absolute;
     top: 45px;
     right: 10px;
     visibility: hidden;
-}
-
-.form-control.success i .img-success {
-    visibility: visible;
-}
-
-.form-control.error i .img-error {
-    visibility: visible;
 }
 
 .register-btn {
