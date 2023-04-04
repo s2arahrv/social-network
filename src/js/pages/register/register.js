@@ -31,7 +31,7 @@ export default () => {
                     </div>
                     <div class="form-control">
                         <label for="password">Senha</label>
-                        <input type="password" class="input-register-password" placeholder="Digite sua Senha">
+                        <input type="password" class="input-register-password" placeholder="Digite sua senha">
                         <p id='error-code' class='error-password'></p>                  
                     </div>
                     <div class="form-control">
