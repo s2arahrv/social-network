@@ -71,10 +71,10 @@ Cada uma de suas histórias de usuário possui:
     usuário.
 
   #### Protótipos Desktop 
-  <img width= "900px" src= "./src/img/loginecadastro.png">
+  <img width= "900px" src= "./public/img/loginecadastro.png">
 
   #### Protótipos Mobile
-  <img width= "500px" src= "./src/img/loginecadastro-mobile.png">
+  <img width= "500px" src= "./public/img/loginecadastro-mobile.png">
 
 ### Timeline/linha do tempo e sobre
 
