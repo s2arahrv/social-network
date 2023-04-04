@@ -15,16 +15,16 @@
 }
 
 .card-publish{
-    width: 80%;
+    width: 90vw;
     margin: auto;   
-    align-items: center;  
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 .card-publish textarea {
-    width: 90%;
+    width: 80%;
+    display: flex;
     height: 150px;
+    margin: auto;
     background-color: #051933;
     margin-top:10px;
     border-radius: 20px;
@@ -32,9 +32,7 @@
     padding: 30px;
     color: white;
     opacity: 90%;
-    border: none;
-  
-    
+    border: none;    
 }
 
 .container-post-data{
@@ -95,7 +93,14 @@ height: 100px;
   display: none;
 }
 
-.publish-btn{
+.btn-publish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#publish-btn{
     background-color: #13283B;
     width: 50%;
     height: 100%;
@@ -107,6 +112,7 @@ height: 100px;
     margin-bottom: 20px;
     text-transform: uppercase;
     margin-top: 5px;
+   
   }
 
 .publish-btn:hover {
@@ -223,7 +229,7 @@ height: 100px;
   display:none;
 }
 
-@media (min-width: 900px) and (max-width: 1054px){
+@media (min-width: 1050px){
   .section-main-feed{
       display: flex;
       align-items: center;
@@ -231,68 +237,20 @@ height: 100px;
       position: relative;      
       margin: auto;
   }
-  .container-publish{
-   margin-left: 500px;
- 
- }
- 
+
+  .container-post-data,
+  .card-publish {   
+    width: 500px;
+    margin-left: 400px;
+  }
+  
   .img-feed{
       display:block;
       width: 400px;
       position: fixed;
       bottom: 15%;
-      left: 80px;
+      left: 100px;
   
   }
  
 }
-
-@media (min-width: 1055px) and (max-width: 1149px){
-  .section-main-feed{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;      
-      margin: auto;
-  }
-  .container-publish{
-   margin-left: 500px;
- 
- }
- 
-  .img-feed{
-      display:block;
-      width: 500px;
-      position: fixed;
-      bottom: 15%;
-      left: 80px;
-  
-  }
- 
-}
-
-
-@media (min-width: 1150px){
-  .section-main-feed{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;      
-      margin: auto;
-  }
-  .container-publish{
-   margin-left: 500px;
- 
- }
- 
-  .img-feed{
-      display:block;
-      width: 550px;
-      position: fixed;
-      bottom: 15%;
-      left: 80px;
-  
-  }
- 
-}
-

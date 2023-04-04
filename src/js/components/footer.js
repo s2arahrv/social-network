@@ -12,30 +12,28 @@ export function footer() {
   const templateFooter = `
 <nav id="footer">
   <ul>
-    <div class="li">
-      <li>
+     <li class="li">
          <a id='sobre' href="/#sobre">
           <img src="${userSquare}" alt="">
            <p class="text">Sobre</p>
          </a>
       </li>
-    </div>
-    <div class="li">
-      <li>
+    
+      <li class="li">
          <a href="/#feed">
           <img src="${house}" alt="">
            <p class="text">feed</p>
          </a>
       </li>
-    </div>      
-    <div class="li">
-      <li>      
+       
+   
+      <li class="li">      
         <a href="/#sair">
           <img src="${SignOut}" alt="">
           <p id='sair'class="text">Sair</p>
         </a>
       </li>
-    </div>
+   
   </ul>
 </nav>`;
 

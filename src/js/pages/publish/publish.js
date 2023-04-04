@@ -136,8 +136,9 @@ export function publish(timelinePost) {
     <section class='card-publish'>
     <textarea class='post-publish' id='post-publish' cols='60' rows='10' placeholder="Digite aqui sua Publicação" style='resize:none'></textarea>
     <p class='message-textarea'></p>
-   
-    <button class='publish-btn' id='publish-btn'>Publicar</button>
+    <div class='btn-publish'   
+    <button id='publish-btn'>Publicar</button>
+    </div>
 </section>
   <div class='container-main'>
     <div class='allposts' id='publishingPost'></div>
