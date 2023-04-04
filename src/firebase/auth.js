@@ -11,7 +11,7 @@ import {
   signInWithPopup,
   updateProfile,
   signOut,
-  onAuthStateChanged,
+  // onAuthStateChanged,
 // eslint-disable-next-line import/no-unresolved
 } from 'firebase/auth';
 
@@ -34,8 +34,6 @@ import {
 import {
   firebaseConfig,
 } from './configuration.js';
-
-import { redirect } from '../redirect.js';
 
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
@@ -148,11 +146,3 @@ export async function disconnect() {
 export function loginGoogle() {
   return signInWithPopup(auth, provider);
 }
-
-onAuthStateChanged(auth, (user) => {
-  if (user) {
-    const uid = user.uid;
-    console.log(uid);
-    redirect('#feed');
-  }
-});
