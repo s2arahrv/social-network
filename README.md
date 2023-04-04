@@ -8,7 +8,7 @@ viver sem elas.
 Há redes sociais de todo tipo para todos os tipos de interesse.
 
   Olá devas é uma rede social para uso exclusivo de mulheres do setor tecnológico
-  Com o intuíto na redução na desigualdade de gênero no setor de tecnologia o olá Devas, foi criado para facilitar a procura de vagas neste setor.
+  Com o intuíto de reduzir a desigualdade de gênero no setor, o olá Devas foi criado para facilitar a procura de vagas.
   Nela a usuária poderá criar uma conta de acesso, logar-se com ela, criar, editar, deletar e dar likes em publicações.
 
 ***
