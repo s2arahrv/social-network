@@ -99,6 +99,15 @@
     font-size: .8rem;
 }
 
+#cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;  
+    color: rgba(20, 95, 131, 1);
+    font-size: 1.1rem;
+}
+
 input {
     width: 100%;
     padding: 10px;
