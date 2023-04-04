@@ -9,11 +9,11 @@
     display: inline-block;
     z-index: 99;
 }
-.footer{     
+.footer {     
     text-align: center;     
 }
 
-.li{
+.li {
     background-color: #13283B;
     width: 100vw;
     height: 4rem;

@@ -3,10 +3,9 @@
 @import "./footer.css";
 
 .container-login {
-  display: flex;
-  align-items: center;  
-  width: 100%;
-
+    display: flex;
+    align-items: center;  
+    width: 100%;
 }
 
 .img-box-login img {
@@ -29,8 +28,7 @@
     margin: 5px;
 	background: #051933;
 	border-radius: 10px;
-    height: fit-content;
-    
+    height: fit-content;    
 }
 
 .box-google-title {
@@ -102,8 +100,7 @@ input {
     font-size: 17px;
     color: #32324f;
     background-color: #ecf2f7;
-    border-radius: 5px;
-	
+    border-radius: 5px;	
 }
 
 .input-box span {

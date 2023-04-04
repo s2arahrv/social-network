@@ -3,7 +3,7 @@
 @import "./footer.css";
 
 .container-publish{
-   width: 100vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,9 +20,9 @@
     align-items: center;  
     display: flex;
     flex-direction: column;
-  }
+}
 
-.card-publish textarea{
+.card-publish textarea {
     width: 90%;
     height: 150px;
     background-color: #051933;
@@ -49,7 +49,6 @@
     color: aliceblue;
     padding-bottom: 10px;
     margin-bottom: 20px;
-  
 }
 
 .name,
@@ -60,7 +59,6 @@
     justify-content: space-between;
     padding: 5px;
     color: #add8ec;
-    
 }
 
 .user-name {
@@ -80,7 +78,7 @@ line-height: 2px;
 height: 100px;
 }
 
-#post-published{
+#post-published {
     background-color: #051933;
     color: #add8ec;
     width: 100%;
@@ -111,21 +109,21 @@ height: 100px;
     margin-top: 5px;
   }
 
-  .publish-btn:hover {
+.publish-btn:hover {
     transform: scale(1.1);
     transition: all 0.5s;
-  }
+}
 
- .btn-like,
- .btn-delete,
- .btn-edit {
+.btn-like,
+.btn-delete,
+.btn-edit {
     border: none;
     background: transparent;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-  } 
+} 
 
-  .modal-delete {
+.modal-delete {
     display: none;
     justify-content: center;
     align-items: center;
@@ -143,20 +141,20 @@ height: 100px;
     z-index: 1;
     animation: animate;
     animation-duration: 0.5s;
-  }
+}
 
 
-  .modal-delete-content {
+.modal-delete-content {
     display: flex;
     height: 100%;
     text-align: center;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-     }  
+} 
 
-  .btn-modal-delete,
-  .btn-modal-cancel {
+.btn-modal-delete,
+.btn-modal-cancel {
     border: none;
     background: rgb(47, 99, 148);
     cursor: pointer;
@@ -165,37 +163,36 @@ height: 100px;
     color: #ffffff;
     margin: 10px;
     border-radius: 5px;
-  }
+}
 
-  .btn-modal-delete:hover,
-  .btn-modal-cancel:hover {
+.btn-modal-delete:hover,
+.btn-modal-cancel:hover {
     transform: scale(1.1);
-  }
+}
 
-  .buttons{
+.buttons{
     display: flex;  
     align-items: center; 
     justify-content: center;
     margin-top: 5px;
-  }
+}
 
-  .buttons img{
+.buttons img{
     width: 20px;
-  }
+}
 
-  .number-likes{
+.number-likes{
     margin-left: 60px;
     margin-top: -20px; 
     margin-right: 20PX;
     color: #add8ec;
-  }
+}
 
-  
 .btn-delete{
   margin-right: 20PX;
 }
 
-  #btn-save {
+#btn-save {
     visibility: hidden;
     background-color: #add8ec;
     border: none;
@@ -204,9 +201,9 @@ height: 100px;
     border-radius: 5px;
     color: #051933;
     margin-left: -20px;
-  }
+}
 
-  .hidden{
+.hidden{
     display: none;
 }
 
@@ -220,8 +217,6 @@ height: 100px;
 
 .section-main-feed{
   background-color: #003b4e;
-
-  
 }
 
 .img-feed{
