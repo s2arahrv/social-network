@@ -38,19 +38,19 @@ Cada uma de suas histórias de usuário possui:
   - Fazer deploy do aplicativo e marcar a versão (git tag).
 
 ### História 1
-<img width= "500px" src= "./src/img/História1.png">
+<img width= "500px" src= "./public/img/História1.png">
 
 ### História 2
-<img width= "500px" src= "./src/img/História2.png">
+<img width= "500px" src= "./public/img/História2.png">
 
 ### História 3    
-<img width= "500px" src= "./src/img/História3.png">
+<img width= "500px" src= "./public/img/História3.png">
 
 ### História 4    
-<img width= "500px" src= "./src/img/História4.png">
+<img width= "500px" src= "./public/img/História4.png">
 
 ### História 5    
-<img width= "500px" src= "./src/img/História5.png">
+<img width= "500px" src= "./public/img/História5.png">
 
 
 
@@ -71,10 +71,10 @@ Cada uma de suas histórias de usuário possui:
     usuário.
 
   #### Protótipos Desktop 
-  <img width= "900px" src= "./src/img/loginecadastro.png">
+  <img width= "900px" src= "./public/img/loginecadastro.png">
 
   #### Protótipos Mobile
-  <img width= "500px" src= "./src/img/loginecadastro-mobile.png">
+  <img width= "500px" src= "./public/img/loginecadastro-mobile.png">
 
 ### Timeline/linha do tempo e sobre
 
@@ -95,10 +95,10 @@ Cada uma de suas histórias de usuário possui:
   - Ao recarregar a página, poder ver os textos editados.
 
   #### Protótipos Desktop 
-  <img width= "900px" src= "./src/img/feedesobre.png">
+  <img width= "900px" src= "./public/img/feedesobre.png">
 
   #### Protótipos Mobile
-  <img width= "500px" src= "./src/img/feedesobremobile.png">
+  <img width= "500px" src= "./public/img/feedesobremobile.png">
 
 ***
 
@@ -127,7 +127,13 @@ Siga os passos e inclua as informações abaixo:
 | `Instale as dependências após acessar a pasta projeto`    | npm i            |
 | `Rode o projeto`           | npm start       |
 
+***
 
+## Testes
+
+<img width= "500px" src= "./public/img/testes.png">
+
+***
 ## Objetivos de aprendizagem
 
 ### HTML
