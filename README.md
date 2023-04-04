@@ -127,7 +127,13 @@ Siga os passos e inclua as informações abaixo:
 | `Instale as dependências após acessar a pasta projeto`    | npm i            |
 | `Rode o projeto`           | npm start       |
 
+***
 
+## Testes
+
+<img width= "500px" src= "./public/img/testes.png">
+
+***
 ## Objetivos de aprendizagem
 
 ### HTML
