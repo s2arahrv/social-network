@@ -215,6 +215,10 @@ height: 100px;
 
 .message-textarea{
   color: #add8ec;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+
 }
 
 .display{
