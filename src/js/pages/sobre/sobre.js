@@ -32,7 +32,7 @@ export default () => {
 <div class="cardItem">
 <ul>
 <li class= "title">Sarah Rodrigues</li>
-<li><a href="https://github.com/daianedosanjos?tab=repositories">
+<li><a href="https://github.com/s2arahrv?tab=repositories">
 <img class="card-img" src="${imgSarah}" alt="foto de Sarah">
 </a> </li>
 <div class="redes">

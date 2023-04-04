@@ -21,22 +21,22 @@ export default () => {
                 <form id="form-register">
                    <div class="form-control">
                         <label for="name">Nome e sobrenome</label>
-                        <input type="text" class="input-register-name" placeholder="">
+                        <input type="text" class="input-register-name" placeholder=" Digite seu nome e sobrenome">
                         <p id='error-code' class='error-name'></p>
                     </div>
                         <div class="form-control">
                         <label for="email">Digite seu e-mail</label>
-                        <input type="email" class="input-register-email" placeholder="">
+                        <input type="email" class="input-register-email" placeholder="Digite seu e-mail">
                         <p id='error-code' class='error-email'></p>
                     </div>
                     <div class="form-control">
                         <label for="password">Senha</label>
-                        <input type="password" class="input-register-password" placeholder="">
+                        <input type="password" class="input-register-password" placeholder="Digite sua senha">
                         <p id='error-code' class='error-password'></p>                  
                     </div>
                     <div class="form-control">
-                        <label for="password">Senha</label>
-                        <input type="password" class="input-register-passwordTwo" placeholder="">
+                        <label for="password">Confirme sua senha</label>
+                        <input type="password" class="input-register-passwordTwo" placeholder="Confirme sua senha">
                         <p id='error-code' class='error-passwordTwo'></p>                  
                     </div>
                     <p id='error-message'></p>  
