@@ -32,5 +32,6 @@ const init = () => {
 
 window.addEventListener('load', () => {
   main.appendChild(login());
+  window.location.hash = '';
   init();
 });

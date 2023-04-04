@@ -22,7 +22,7 @@ export function footer() {
       <li class="li">
          <a href="/#feed">
           <img src="${house}" alt="">
-           <p class="text">feed</p>
+           <p class="text">Feed</p>
          </a>
       </li>
        
