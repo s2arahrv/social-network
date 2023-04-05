@@ -146,11 +146,16 @@ input {
 	text-align: center;
     color:#e4e4e4
 }
-.input-box p a{
+#cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;  
+    font-size: 1.1rem;
     color: #4aa4ee;
 }
 
-.input-box p a:hover{
+#cadastrar:hover{
     color: #3286ca;
 }
 .form-box-login h4{

@@ -10,9 +10,9 @@ export default () => {
   const containerSobre = document.createElement('div');
   const templateSobre = `
   <div class="container-sobre">
-   <p>Desenvolvido por <a class='link' href="https://github.com/daianedosanjos?tab=repositories" target="_blank"> Daiane dos Anjos</a> e  <a href="https://github.com/s2arahrv?tab=repositories" target="_blank"> Sarah Rodrigues</a>, o Olá devas é uma rede social para uso exclusivo de mulheres do setor tecnológico.
-  Com o intuíto de diminuir o gap entre homens x mulheres no setor, o Olá Devas foi criado para facilitar a procura de vagas.
-  Nela a usuária poderá criar uma conta de acesso, logar-se com ela, criar, editar, deletar e dar likes em publicações.</p> 
+   <p>Desenvolvido por Daiane dos Anjos e Sarah Rodrigues, o Olá devas é uma rede social para uso exclusivo de mulheres do setor tecnológico.
+   Com o intuíto de reduzir a desigualdade de gênero no setor, o olá Devas foi criado para facilitar a procura de vagas.
+   Nela a usuária poderá criar uma conta de acesso, logar-se com ela, criar, editar, deletar e dar likes em publicações.</p> 
 
   <h1>Desenvolvedoras</h1>
 <div class='cardContainer'>
@@ -37,7 +37,7 @@ export default () => {
 </a> </li>
 <div class="redes">
 <li><a href="https://github.com/s2arahrv" target="_blank"><img class="link-img" src="${imgGithub}"></a> </li>
-<li><a href="https://www.linkedin.com/in/sarah-rodrigues-251396270/s" target="_blank"><img class="link-img" src="${imgLinkedin}">
+<li><a href="https://www.linkedin.com/in/sarahrodriguesvieira" target="_blank"><img class="link-img" src="${imgLinkedin}">
            </a> </li> </div>
 </ul>
 </div>
