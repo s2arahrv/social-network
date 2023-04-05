@@ -37,7 +37,7 @@ export default () => {
 </a> </li>
 <div class="redes">
 <li><a href="https://github.com/s2arahrv" target="_blank"><img class="link-img" src="${imgGithub}"></a> </li>
-<li><a href="https://www.linkedin.com/in/sarah-rodrigues-251396270/s" target="_blank"><img class="link-img" src="${imgLinkedin}">
+<li><a href="https://www.linkedin.com/in/sarahrodriguesvieira" target="_blank"><img class="link-img" src="${imgLinkedin}">
            </a> </li> </div>
 </ul>
 </div>
