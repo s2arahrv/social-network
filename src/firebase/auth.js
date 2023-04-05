@@ -45,14 +45,15 @@ export function getUser() {
 
 export const createPostData = (postContent) => {
   const date = new Date();
+  const dataAtual = date;
+  const dataPostagem = dataAtual.toLocaleDateString();
   return {
     message: postContent,
     userId: getUser().uid,
     userName: getUser().displayName,
     likes: [],
-    publishDate: date.toLocaleDateString(),
+    publishDate: dataPostagem,
     editDate: date.toLocaleDateString(),
-
   };
 };
 
@@ -63,10 +64,9 @@ export const newPost = async (postContent) => {
 };
 
 export async function readAllPosts() {
-  const queryOrder = query(collection(db, 'posts'), orderBy('publishDate'));
-  const querySnapshot = await getDocs(queryOrder);
   const posts = [];
-
+  const queryOrder = query(collection(db, 'posts'), orderBy('publishDate', 'asc'));
+  const querySnapshot = await getDocs(queryOrder);
   querySnapshot.forEach((item) => {
     const data = item.data();
     data.id = item.id;
@@ -111,35 +111,22 @@ export function deslikePost(postId, userUID) {
   });
 }
 
-// export const onGetTasks = (callback) => onSnapshot(collection(db, 'tasks'), callback);
-
-// export const deleteTask = (id) => deleteDoc(doc(db, 'tasks', id));
-
-// export const getTask = (id) => getDoc(doc(db, 'tasks', id));
-
-// export const updateTask = (id, newFields) => updateDoc(doc(db, 'tasks', id), newFields);
-
-// export const getTasks = () => getDocs(collection(db, 'tasks'));
-
-// ----------- cadastro de usuário novo------------------ //
 export async function signIn(name, email, password) {
   return createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-      // Signed in
       const user = userCredential.user; // aqui atualizar o perfil do usuario
       return updateProfile(user, { displayName: name });
-      // ...
     });
 }
-// ----------- Login de usuário cadastrado------------------ //
+
 export function login(email, password) {
   return signInWithEmailAndPassword(auth, email, password);
 }
-// ----------- desconectar usuário------------------ //
+
 export async function disconnect() {
   return signOut(auth);
 }
-// ----------- Login com Google------------------ //
+
 export function loginGoogle() {
   return signInWithPopup(auth, provider);
 }
